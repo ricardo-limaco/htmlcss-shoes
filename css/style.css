@@ -50,6 +50,7 @@ header nav::after {
 .container {
     height: 100vh;
     position: relative;
+    overflow: hidden;
 }
 
 .container.red {
