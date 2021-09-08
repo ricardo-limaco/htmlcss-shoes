@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+/* .clearfix::after {         
+    content: "";
+    display: table;
+    clear: both;
+} */
+/*************************************************************/
+
+
+/* Nav */
+
+header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 99;
+}
+
+
+nav {
+    position: absolute;
+    display: inline-block;
+    right: 0;
+}
+
+
+
+nav ul{
+    list-style: none;
+    display: inline-block;
+}
+
+nav ul li{
+    display: inline-block;
+    float: left;
+    padding: 20px 20px 0px;
+}
+
+
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-family: 'Rubik Mono One', sans-serif;
+    font-size: 17px;
+    padding: 15px 19px;
+    background-color: white;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+
+
+
+
+
+/* Shoes */
+.container {
+    height: 100vh;
+    position: relative;
+}
+
+.container.red {
+    background-color: red;
+}
+
+.container.green {
+    background-color: #008000;
+}
+
+.container.yellow {
+    background-color: #ffff00;
+}
+
+.product {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.product h1 {
+    font-family: 'Rubik Mono One', sans-serif;
+    font-size: 40px;
+    color: #ffff00;
+    text-align: center;
+} 
+
+.container.yellow h1{
+    color: #008000;
+}
