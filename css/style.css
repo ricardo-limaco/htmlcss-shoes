@@ -4,14 +4,8 @@
     box-sizing: border-box;
 }
 
-/* .clearfix::after {         
-    content: "";
-    display: table;
-    clear: both;
-} */
+
 /*************************************************************/
-
-
 /* Nav */
 
 header {
@@ -54,10 +48,11 @@ nav ul li a {
     display: inline-block;
 }
 
-
-
-
-
+header nav::after {         
+    content: "";
+    display: table;
+    clear: both;
+} 
 
 /* Shoes */
 .container {
