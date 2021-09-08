@@ -4,7 +4,6 @@
     box-sizing: border-box;
 }
 
-
 /*************************************************************/
 /* Nav */
 
@@ -18,24 +17,17 @@ header {
 
 nav {
     position: absolute;
-    display: inline-block;
     right: 0;
 }
 
-
-
 nav ul{
     list-style: none;
-    display: inline-block;
 }
 
 nav ul li{
-    display: inline-block;
     float: left;
     padding: 20px 20px 0px;
 }
-
-
 
 nav ul li a {
     text-decoration: none;
@@ -71,6 +63,7 @@ header nav::after {
 .container.yellow {
     background-color: #ffff00;
 }
+
 
 .product {
     position: absolute;
